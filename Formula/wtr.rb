@@ -4,6 +4,7 @@ class Wtr < Formula
   url "https://github.com/arzezak/wtr/archive/refs/tags/v0.1.0.tar.gz"
   sha256 "21801611140b722e653092a177dbf53c756c17bb728525f75dc8ab96a0c0cfde"
   license "MIT"
+  revision 1
 
   depends_on "ruby" => :build
 
