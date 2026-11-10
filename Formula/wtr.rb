@@ -6,6 +6,11 @@ class Wtr < Formula
   license "MIT"
   revision 1
 
+  bottle do
+    root_url "https://github.com/arzezak/homebrew-tap/releases/download/wtr-0.1.0_1"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "5d52329f642c0459ecd0e521d3f2bffeeaac8e6ac63627ab5950a24ae7af0481"
+  end
+
   depends_on "ruby" => :build
 
   resource "spinel" do
