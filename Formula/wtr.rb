@@ -1,10 +1,9 @@
 class Wtr < Formula
   desc "Create, switch between and remove git worktrees"
   homepage "https://github.com/arzezak/wtr"
-  url "https://github.com/arzezak/wtr/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "21801611140b722e653092a177dbf53c756c17bb728525f75dc8ab96a0c0cfde"
+  url "https://github.com/arzezak/wtr/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "3b8001f63d0a6fbf4da33ea1233811ada492db51972c37c013f3fe73dd6a1f5c"
   license "MIT"
-  revision 1
 
   bottle do
     root_url "https://github.com/arzezak/homebrew-tap/releases/download/wtr-0.1.0_1"
