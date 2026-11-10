@@ -6,8 +6,8 @@ class Wtr < Formula
   license "MIT"
 
   bottle do
-    root_url "https://github.com/arzezak/homebrew-tap/releases/download/wtr-0.1.0_1"
-    sha256 cellar: :any_skip_relocation, arm64_sequoia: "5d52329f642c0459ecd0e521d3f2bffeeaac8e6ac63627ab5950a24ae7af0481"
+    root_url "https://github.com/arzezak/homebrew-tap/releases/download/wtr-0.1.1"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "f3cced08bb714e864cab78609c2f721bea7854a432df75ec34087fd547350059"
   end
 
   depends_on "ruby" => :build
