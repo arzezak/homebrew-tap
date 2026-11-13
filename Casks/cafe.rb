@@ -7,7 +7,7 @@ cask "cafe" do
   desc "Menu bar toggle that keeps a Mac awake"
   homepage "https://github.com/arzezak/cafe"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Cafe.app"
 end
