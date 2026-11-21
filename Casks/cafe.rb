@@ -1,6 +1,6 @@
 cask "cafe" do
-  version "1.1"
-  sha256 "46479e97ecc12169850d09c3c3d2d879db70e493903684fd4e80d334ebbf4bb1"
+  version "1.2"
+  sha256 "a39bb8a0926702566d310e96054e524daee8b24bfd50304479b1fe5653a60792"
 
   url "https://github.com/arzezak/cafe/releases/download/v#{version}/Cafe.zip"
   name "Cafe"
